@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 
-const flags = {
-  en: "🇬🇧",
-  fr: "🇫🇷",
-  ar: "🇩🇿",
-};
-
 export default function App() {
   const [lang, setLang] = useState(null);
 
@@ -68,15 +62,9 @@ export default function App() {
             </p>
 
             <div className="buttons">
-              <button onClick={() => setLang("en")}>
-                <span className="flag-emoji" aria-hidden="true">{flags.en}</span> English
-              </button>
-              <button onClick={() => setLang("fr")}>
-                <span className="flag-emoji" aria-hidden="true">{flags.fr}</span> Français
-              </button>
-              <button onClick={() => setLang("ar")}>
-                <span className="flag-emoji" aria-hidden="true">{flags.ar}</span> عربي
-              </button>
+              <button onClick={() => setLang("en")}>English</button>
+              <button onClick={() => setLang("fr")}>Français</button>
+              <button onClick={() => setLang("ar")}>عربي</button>
             </div>
           </>
         )}

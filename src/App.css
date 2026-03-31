@@ -66,17 +66,6 @@ html, body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
-.buttons button:hover .flag-emoji {
-  transform: rotate(-10deg) scale(1.1);
-}
-
-.flag-emoji {
-  font-size: 24px;
-  line-height: 1;
-  display: inline-block;
-  transition: all 0.3s ease;
-}
-
 /* Section */
 .section {
   padding: 20px;
@@ -169,9 +158,5 @@ p {
   .buttons button {
     width: 80%;
     justify-content: center;
-  }
-
-  .flag-emoji {
-    font-size: 28px;
   }
 }
