@@ -102,6 +102,21 @@ p {
   line-height: 1.8;
 }
 
+.summary-title {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.summary-text {
+  text-align: justify;
+}
+
+.keywords {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 /* Texte arabe centré */
 .rtl-center {
   direction: rtl;
